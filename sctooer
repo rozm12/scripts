@@ -414,18 +414,3 @@ game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
         end
 	end)
 
-local BlacklistTable = {
-	[1575698785] = true;	-- Test| Reason: Test
-	[] = true;  	-- Fevlix | Reason: 
-	[] = true; 	-- endlessjj Reason: 
-	[] = true; 		-- cheezcayk | Reason: 
-	[] = true;		-- vxonc | Reason: 
-	[] = true; 	-- DranghetaSINS | Reason: 
-	[] = true; 	-- Zerulogy | Reason: 
-	[] = true; 	-- OrphanageKid | 
-	[] = true; 	-- R4ELEEN | 
-}
-
-if BlacklistTable[LP.UserId] then 
-	while true do end -- crash that dumb ass skid! 
-end 
